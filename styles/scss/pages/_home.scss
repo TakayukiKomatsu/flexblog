@@ -135,3 +135,71 @@ body {
     border-top: 8px solid $blueColor;
   }
 }
+
+.precos {
+  background-color: $grayishBg;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  .preco-item {
+    flex: 1 1 260px;
+    border: 4px solid $pricingBorder;
+    padding: 20px;
+    margin: 10px;
+    h2 {
+      font-size: 3em;
+      color: $secondaryFont;
+      text-align: center;
+      margin: 20px;
+    }
+    span {
+      max-width: 300px;
+      margin: 20px auto;
+      display: block;
+      font-size: 3em;
+      text-align: center;
+      font-weight: bold;
+      padding: 10px 0 5px 0;
+      border-top: $pricingBorder;
+      border-bottom: 4px solid $pricingBorder;
+    }
+    sup {
+      font-size: 1.5rem;
+    }
+    ul {
+      max-width: 300px;
+      margin: 20px auto;
+      font-size: 1.25em;
+      font-style: italic;
+      color: $aboutColor;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+      &::after {
+        content: "";
+        display: block;
+        widows: 6px;
+        height: 6px;
+        background-color: $navbarBg;
+        border-radius: 50%;
+      }
+    }
+
+    a {
+      max-width: 300px;
+      display: block;
+      margin: 20px auto;
+      border: 4px solid;
+      color: $primaryFont;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2.25em;
+      padding: 15px 0;
+      text-align: center;
+    }
+  }
+}

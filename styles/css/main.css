@@ -203,3 +203,91 @@ body {
 .produtos .blue {
   border-top: 8px solid #66d9eb;
 }
+
+.precos {
+  background-color: #f7f7f7;
+  padding: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.precos .preco-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 260px;
+          flex: 1 1 260px;
+  border: 4px solid #ffffff;
+  padding: 20px;
+  margin: 10px;
+}
+
+.precos .preco-item h2 {
+  font-size: 3em;
+  color: #a4a4a4;
+  text-align: center;
+  margin: 20px;
+}
+
+.precos .preco-item span {
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0 5px 0;
+  border-top: #ffffff;
+  border-bottom: 4px solid #ffffff;
+}
+
+.precos .preco-item sup {
+  font-size: 1.5rem;
+}
+
+.precos .preco-item ul {
+  max-width: 300px;
+  margin: 20px auto;
+  font-size: 1.25em;
+  font-style: italic;
+  color: #7c7c7c;
+}
+
+.precos .preco-item li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.precos .preco-item li::after {
+  content: "";
+  display: block;
+  widows: 6px;
+  height: 6px;
+  background-color: #2c70ff;
+  border-radius: 50%;
+}
+
+.precos .preco-item a {
+  max-width: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 4px solid;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.25em;
+  padding: 15px 0;
+  text-align: center;
+}
