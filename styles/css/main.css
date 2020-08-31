@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,400i,700");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -30,7 +30,7 @@ img {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
   color: #222222;
 }
 
@@ -45,15 +45,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-top: 10px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 10px;
 }
 
 .superinfo-bg .superinfo p,
@@ -67,18 +64,23 @@ body {
 
 .menu-bg {
   background-color: #2c70ff;
-  color: #fff;
 }
 
 .menu-bg .menu {
   max-width: 960px;
   margin: 0 auto;
+  padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu-bg .menu a {
@@ -105,4 +107,52 @@ body {
 .menu-bg .menu .menu-nav a {
   font-size: 1.25em;
   padding: 10px;
+}
+
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+.sobre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 2px solid #2c70ff;
+  border-top: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sobre .sobre-info {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 300px;
+          flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre .sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.sobre .sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre .sobre-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 160px;
+          flex: 1 1 160px;
+  margin: 0 10px;
 }
