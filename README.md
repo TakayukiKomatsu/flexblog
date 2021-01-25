@@ -4,4 +4,4 @@
 
 
 
-[Check it here: ](https://takayukikomatsu.github.io/flexblog/)
+[Check it here](https://takayukikomatsu.github.io/origamid-flexblog/)
